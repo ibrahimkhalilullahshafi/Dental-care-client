@@ -1,15 +1,25 @@
 import React from 'react';
-import chair from '../../../assets/images/chair.png';
+import banner from '../../../assets/images/banner.jpg';
+import background from '../../../assets/images/dcare.jpg'
 
 const Banner = () => {
     return (
-        <div className="hero">
+        <div className="hero rounded-lg" style={{
+            backgroundImage: `url(${background})`,
+            backgroundRepeat: 'no-repeat',
+            width: '100%',
+            height: '100%',
+            backgroundPosition: 'center',
+            backgroundBlendMode: 'lighten',
+            backgroundColor: 'rgba(255,255,255,0.7)'
+
+        }}>
             <div className="hero-content flex-col lg:flex-row-reverse">
-                <img src={chair} className="max-w-sm rounded-lg shadow-2xl" alt="banner" />
+                <img src={banner} className="max-w-sm rounded-lg shadow-2xl" alt="banner" />
                 <div>
-                    <h1 className="text-5xl font-bold">Your new smile starts here</h1>
-                    <p className="py-6">dajksg diashdfkadsfh asdiksgafik</p>
-                    <button className="btn btn-primary">Get Started</button>
+                    <h1 className="text-5xl font-bold text-secondary">Your new smile starts here</h1>
+                    <p className="py-6">Here to Service All Your Dental Care Needs in Dhaka</p>
+                    <button className="btn btn-primary bg-gradient-to-r from-primary to-secondary text-white">Get Appointment</button>
                 </div>
             </div>
         </div>
