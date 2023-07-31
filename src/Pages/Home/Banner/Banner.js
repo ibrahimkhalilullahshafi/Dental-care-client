@@ -11,14 +11,14 @@ const Banner = () => {
             height: '100%',
             backgroundPosition: 'center',
             backgroundBlendMode: 'lighten',
-            backgroundColor: 'rgba(255,255,255,0.7)'
+            backgroundColor: 'rgba(255,255,255,0.6)'
 
         }}>
-            <div className="hero-content flex-col lg:flex-row-reverse">
+            <div className="hero-content flex-col lg:flex-row-reverse justify-between">
                 <img src={banner} className="max-w-sm rounded-lg shadow-2xl" alt="banner" />
                 <div>
-                    <h1 className="text-5xl font-bold text-secondary">Your new smile starts here</h1>
-                    <p className="py-6">Here to Service All Your Dental Care Needs in Dhaka</p>
+                    <h1 className="text-5xl font-semibold text-accent">Welcome to Dental Care</h1>
+                    <p className="py-6">Specially designed for patients seeking dentistry abroad, we offer you bespoke expertise at a price that is unbelievably affordable. We have an elite team of carefully selected specialists from all fields of dentistry.</p>
                     <button className="btn btn-primary bg-gradient-to-r from-primary to-secondary text-white">Get Appointment</button>
                 </div>
             </div>
