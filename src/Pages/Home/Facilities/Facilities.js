@@ -26,15 +26,18 @@ const Facilities = () => {
         }
     ]
     return (
-        <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 my-4 justify-items-center'>
-            {
-                facilityData.map(data => <Facility
-                    key={data.id}
-                    data={data}
-                ></Facility>)
-            }
-
+        <div className=' mt-10'>
+            <div><p className='text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary text-center'>Our Specialities</p></div>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 my-4 justify-items-center'>
+                {
+                    facilityData.map(data => <Facility
+                        key={data.id}
+                        data={data}
+                    ></Facility>)
+                }
+            </div>
         </div>
+
     );
 };
 

@@ -21,7 +21,7 @@ const Navbar = () => {
                         {menuitems}
                     </ul>
                 </div>
-                <Link to="/" className="btn btn-ghost normal-case text-4xl text-primary font-bold">Dental Care</Link>
+                <Link to="/" className="btn btn-ghost normal-case text-5xl text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary font-bold">Dental Care</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-lg text-accent font-semibold">

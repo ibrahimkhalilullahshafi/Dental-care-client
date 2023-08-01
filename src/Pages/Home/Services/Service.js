@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Facility = ({ data }) => {
+const Service = ({ data }) => {
     const { name, description, icon } = data;
     return (
-        <div className="card w-auto bg-base-100">
+        <div className="card w-auto bg-base-100 shadow-xl">
             <figure className="px-10 pt-10">
                 <img src={icon} alt="" className="rounded-xl" />
             </figure>
@@ -15,4 +15,4 @@ const Facility = ({ data }) => {
     );
 };
 
-export default Facility;
+export default Service;
