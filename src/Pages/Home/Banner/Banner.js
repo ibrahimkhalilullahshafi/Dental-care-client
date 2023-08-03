@@ -1,6 +1,6 @@
 import React from 'react';
 import banner from '../../../assets/images/banner.jpg';
-import background from '../../../assets/images/dcare.jpg'
+import background from '../../../assets/images/ban.jpg'
 
 const Banner = () => {
     return (
@@ -11,7 +11,7 @@ const Banner = () => {
             height: '100%',
             backgroundPosition: 'center',
             backgroundBlendMode: 'lighten',
-            backgroundColor: 'rgba(255,255,255,0.6)'
+            backgroundColor: 'rgba(255,255,255,0.4)'
 
         }}>
             <div className="hero-content flex-col lg:flex-row-reverse justify-between">

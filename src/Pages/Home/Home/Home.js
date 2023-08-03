@@ -7,7 +7,7 @@ import MakeAppointment from '../MakeAppointment/MakeAppointment';
 
 const Home = () => {
     return (
-        <div className='mx-4'>
+        <div className='mx-auto'>
             <Banner></Banner>
             <Facilities></Facilities>
             <Services></Services>
