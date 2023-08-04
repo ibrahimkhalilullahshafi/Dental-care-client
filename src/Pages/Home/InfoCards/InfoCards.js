@@ -18,7 +18,7 @@ const InfoCards = () => {
             name: 'Visit our location',
             description: 'Laxmipur, Rajshahi, Rajpara-6000',
             icon: marker,
-            bgClass: 'bg-accent'
+            bgClass: 'bg-accent/[.8]'
         },
         {
             id: 3,
