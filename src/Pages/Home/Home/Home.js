@@ -9,8 +9,8 @@ const Home = () => {
     return (
         <div className='mx-auto'>
             <Banner></Banner>
-            <Facilities></Facilities>
             <Services></Services>
+            <Facilities></Facilities>
             <InfoCards></InfoCards>
             <MakeAppointment></MakeAppointment>
         </div>
