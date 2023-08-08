@@ -2,8 +2,10 @@ import React from 'react';
 import banner from '../../../assets/images/banner.jpg';
 import background from '../../../assets/images/ban.jpg'
 
+
 const Banner = () => {
     return (
+
         <div className="hero rounded-lg" style={{
             backgroundImage: `url(${background})`,
             backgroundRepeat: 'no-repeat',
@@ -23,6 +25,8 @@ const Banner = () => {
                 </div>
             </div>
         </div>
+
+
     );
 };
 
