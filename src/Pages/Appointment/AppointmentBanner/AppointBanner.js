@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import chair from '../../../assets/images/chair.png'
 import background from '../../../assets/images/bg.png'
 import { DayPicker } from 'react-day-picker';
 import { format } from 'date-fns';
 
-const AppointBanner = () => {
-    const [selectedDate, setSelectedDate] = useState(new Date());
+const AppointBanner = ({ selectedDate, setSelectedDate }) => {
+
     return (
         <div className="hero bg-base-100 place-items-stretch w-screen" style={{
             backgroundImage: `url(${background})`,
@@ -18,7 +18,6 @@ const AppointBanner = () => {
                         selected={selectedDate}
                         onSelect={setSelectedDate} className='bg-gradient-to-r from-primary to-secondary text-white font-bold rounded-lg p-4'
                     ></DayPicker>
-                    <p>you have selected : {format(selectedDate, 'PP')}</p>
                 </div>
             </div>
         </div>
